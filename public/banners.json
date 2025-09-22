@@ -1,0 +1,20 @@
+{
+  "banners": [
+    {
+      "id": 1,
+      "image": "/assets/img/category_banner/category-banner5.jpg",
+      "title": "Exclusive Jacket",
+      "subtitle": "Collection",
+      "desc": "Start from : £258.00",
+      "link": "/shop"
+    },
+    {
+      "id": 2,
+      "image": "/assets/img/category_banner/category-banner6.jpg",
+      "title": "Hot Exclusive",
+      "subtitle": "Offer on Jewelry",
+      "desc": "50% Instant Discount",
+      "link": "/shop"
+    }
+  ]
+}

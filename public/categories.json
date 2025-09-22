@@ -1,0 +1,40 @@
+{
+  "categories": [
+    {
+      "id": 1,
+      "title": "Activewear",
+      "image": "/assets/img/product_category/product-cat-10.jpg",
+      "link": "/shop"
+    },
+    {
+      "id": 2,
+      "title": "Hot Dresses",
+      "image": "/assets/img/product_category/product-cat-15.jpg",
+      "link": "/shop"
+    },
+    {
+      "id": 3,
+      "title": "Footwear",
+      "image": "/assets/img/product_category/product-cat-11.jpg",
+      "link": "/shop"
+    },
+    {
+      "id": 4,
+      "title": "Sunglass",
+      "image": "/assets/img/product_category/product-cat-12.jpg",
+      "link": "/shop"
+    },
+    {
+      "id": 5,
+      "title": "Coat & Jacket",
+      "image": "/assets/img/product_category/product-cat-13.jpg",
+      "link": "/shop"
+    },
+    {
+      "id": 6,
+      "title": "Jewelry",
+      "image": "/assets/img/product_category/product-cat-14.jpg",
+      "link": "/shop"
+    }
+  ]
+}

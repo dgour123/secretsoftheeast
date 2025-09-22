@@ -1,0 +1,71 @@
+{
+  "widgets": [
+    {
+      "title": "Information",
+      "links": [
+        { "text": "About Company", "url": "#" },
+        { "text": "Payment Type", "url": "#" },
+        { "text": "Awards Winning", "url": "#" },
+        { "text": "World Media Partner", "url": "#" },
+        { "text": "Become an Agent", "url": "#" },
+        { "text": "Refund Policy", "url": "#" }
+      ]
+    },
+    {
+      "title": "Category",
+      "links": [
+        { "text": "Handbags & Wallets", "url": "#" },
+        { "text": "Women's Clothing", "url": "#" },
+        { "text": "Plus Sizes", "url": "#" },
+        { "text": "Complete Your Look", "url": "#" },
+        { "text": "Baby Corner", "url": "#" },
+        { "text": "Man & Woman Shoe", "url": "#" }
+      ]
+    },
+    {
+      "title": "Help & Support",
+      "links": [
+        { "text": "Dealers & Agents", "url": "#" },
+        { "text": "FAQ Information", "url": "#" },
+        { "text": "Return Policy", "url": "#" },
+        { "text": "Shipping & Delivery", "url": "#" },
+        { "text": "Order Tracking", "url": "#" },
+        { "text": "List of Shops", "url": "#" }
+      ]
+    },
+    {
+      "title": "Newsletter",
+      "description": "Enter your email below to be the first to know about new collections and product launches.",
+      "placeholder": "Enter your email",
+      "buttonText": "Subscribe Now"
+    }
+  ],
+  "support": {
+    "time": "8:30 AM - 10:30",
+    "phone": "555-900-888"
+  },
+  "cards": [
+    "assets/img/cards/card-1.png",
+    "assets/img/cards/card-2.png",
+    "assets/img/cards/card-3.png",
+    "assets/img/cards/card-4.png"
+  ],
+  "apps": [
+    "assets/img/apps/app-store-1.png",
+    "assets/img/apps/app-store-2.png"
+  ],
+  "copyright": {
+    "text": "Copyright by BDevs. All Rights Reserved",
+    "links": [
+      { "text": "Privacy Policy", "url": "#" },
+      { "text": "Terms & Conditions", "url": "#" },
+      { "text": "Sitemap", "url": "#" }
+    ]
+  },
+  "socials": [
+    { "icon": "fab fa-facebook-f", "url": "#" },
+    { "icon": "fab fa-twitter", "url": "#" },
+    { "icon": "fab fa-instagram", "url": "#" },
+    { "icon": "fab fa-pinterest-p", "url": "#" }
+  ]
+}

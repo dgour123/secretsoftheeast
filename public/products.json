@@ -1,0 +1,226 @@
+[
+  {
+    "id": 1,
+    "name": "Comfy Winter Shirt",
+    "price": 55.00,
+    "priceOld": null,
+    "image": ["assets/img/shirt/1/1.jpg"],
+    "category": ["shirt", "hot-collection", "trendy"]
+  },
+  {
+    "id": 2,
+    "name": "Skinny Jeans Pant",
+    "price": 45.00,
+    "priceOld": null,
+    "image": ["assets/img/pant/1/1.jpg"],
+    "category": ["pant", "new-arrival"]
+  },
+  {
+    "id": 3,
+    "name": "Men's Flat-Front Shorts",
+    "price": 30.00,
+    "priceOld": 40.00,
+    "image": ["assets/img/pant/2/1.jpg"],
+    "category": ["pant", "best-seller"]
+  },
+  {
+    "id": 4,
+    "name": "Eastland Lumber Up Boots",
+    "price": 38.00,
+    "priceOld": null,
+    "image": ["assets/img/shoe/1.jpg"],
+    "category": ["shoe", "trendy"]
+  },
+  {
+    "id": 5,
+    "name": "Men's Poplin Dress Shirt",
+    "price": 25.00,
+    "priceOld": null,
+    "image": ["assets/img/shirt/3/1.jpg"],
+    "category": ["shirt", "new-arrival"]
+  },
+  {
+    "id": 6,
+    "name": "Varsi Leather Bag",
+    "price": 65.00,
+    "priceOld": null,
+    "image": ["assets/img/bag/1.jpg"],
+    "category": ["bag", "hot-collection"]
+  },
+  {
+    "id": 7,
+    "name": "Fit Twill Shirt for Woman",
+    "price": 62.00,
+    "priceOld": null,
+    "image": ["assets/img/product/800_1034/Image-2-1.jpg"],
+    "category": ["shirt", "trendy"]
+  },
+  {
+    "id": 8,
+    "name": "Grand Atlantic Chukka Boots",
+    "price": 24.00,
+    "priceOld": 32.00,
+    "image": ["assets/img/product/800_1034/Image-3-1.jpg"],
+    "category": ["shoe", "best-seller"]
+  },
+  {
+    "id": 9,
+    "name": "Women's Faux-Trim Shirt",
+    "price": 84.00,
+    "priceOld": null,
+    "image": ["assets/img/product/800_1034/Image-4-1.jpg"],
+    "category": ["shirt", "hot-collection"]
+  },
+  {
+    "id": 10,
+    "name": "Soft Touch Interlock Polo",
+    "price": 45.00,
+    "priceOld": null,
+    "image": ["assets/img/product/800_1034/Image-16-1.jpg"],
+    "category": ["shirt", "new-arrival"]
+  },
+  {
+    "id": 11,
+    "name": "Ecomart Smart Watch",
+    "price": 30.00,
+    "priceOld": 38.00,
+    "image": ["assets/img/product/800_1034/product-img1.jpg"],
+    "category": ["watch", "trendy"]
+  },
+  {
+    "id": 12,
+    "name": "Ecomart Smart Glass",
+    "price": 25.00,
+    "priceOld": 39.00,
+    "image": ["assets/img/sunglass/2.jpg"],
+    "category": ["sunglass", "best-seller"]
+  },
+  {
+    "id": 13,
+    "name": "Cotton Shirt fot Men",
+    "price": 85.00,
+    "priceOld": 99.00,
+    "image": ["assets/img/shirt/2/1.jpg"],
+    "category": ["shirt", "hot-collection"]
+  },
+  {
+    "id": 14,
+    "name": "Double-breasted Blazer",
+    "price": 32.00,
+    "priceOld": null,
+    "image": ["assets/img/product/800_1034/Image-5-1.jpg"],
+    "category": ["blazer", "new-arrival"]
+  },
+  {
+    "id": 15,
+    "name": "Ribbed Cotton Bodysuits",
+    "price": 71.00,
+    "priceOld": null,
+    "image": ["assets/img/product/800_1034/Image-1-1.jpg"],
+    "category": ["shirt", "trendy"]
+  },
+  {
+    "id": 16,
+    "name": "Men's Tricot Track Jacket",
+    "price": 35.00,
+    "priceOld": null,
+    "image": ["assets/img/jacket/1/1.jpg"],
+    "category": ["jacket", "hot-collection"]
+  },
+  {
+    "id": 17,
+    "name": "Wedding Diamond Ring",
+    "price": 64.00,
+    "priceOld": null,
+    "image": ["assets/img/product/800_1034/Image-6-1.jpg"],
+    "category": ["jewelry", "new-arrival"]
+  },
+  {
+    "id": 18,
+    "name": "Polarized Sunglasses",
+    "price": 43.00,
+    "priceOld": null,
+    "image": ["assets/img/sunglass/1.jpg"],
+    "category": ["sunglass", "trendy"]
+  },
+  {
+    "id": 19,
+    "name": "Baby Dress for Girl",
+    "price": 35.00,
+    "priceOld": 50.00,
+    "image": ["assets/img/product/800_1034/Image-8-1.jpg"],
+    "category": ["baby", "best-seller"]
+  },
+  {
+    "id": 20,
+    "name": "Fit Twill Shirt for Woman",
+    "price": 34.00,
+    "priceOld": null,
+    "image": ["assets/img/product/800_1034/Image-9-1.jpg"],
+    "category": ["shirt", "hot-collection"]
+  },
+  {
+    "id": 21,
+    "name": "Skinny Cotton Pant",
+    "price": 41.00,
+    "priceOld": null,
+    "image": ["assets/img/product/800_1034/Image-10-1.jpg"],
+    "category": ["pant", "new-arrival"]
+  },
+  {
+    "id": 22,
+    "name": "Denim Official Coat",
+    "price": 35.00,
+    "priceOld": null,
+    "image": ["assets/img/product/800_1034/Image-7-1.jpg"],
+    "category": ["coat", "trendy"]
+  },
+  {
+    "id": 23,
+    "name": "Tinted Sunglasses",
+    "price": 48.00,
+    "priceOld": 60.00,
+    "image": ["assets/img/product/800_1034/Image-11-1.jpg"],
+    "category": ["sunglass", "best-seller"]
+  },
+  {
+    "id": 24,
+    "name": "Men's Classic Stretch Shirt",
+    "price": 63.00,
+    "priceOld": null,
+    "image": ["assets/img/product/800_1034/Image-12-1.jpg"],
+    "category": ["shirt", "hot-collection"]
+  },
+  {
+    "id": 25,
+    "name": "Packable Quilted Puffer Jacket",
+    "price": 28.00,
+    "priceOld": 35.00,
+    "image": ["assets/img/jacket/2/1.jpg"],
+    "category": ["jacket", "new-arrival"]
+  },
+  {
+    "id": 26,
+    "name": "Girls Metallic Coat",
+    "price": 38.00,
+    "priceOld": null,
+    "image": ["assets/img/product/800_1034/Image-13-1.jpg"],
+    "category": ["coat", "trendy"]
+  },
+  {
+    "id": 27,
+    "name": "Varsi Leather Bag",
+    "price": 85.00,
+    "priceOld": null,
+    "image": ["assets/img/product/800_1034/Image-14-1.jpg"],
+    "category": ["bag", "best-seller"]
+  },
+  {
+    "id": 28,
+    "name": "Men's Classic Fit Polo",
+    "price": 26.00,
+    "priceOld": null,
+    "image": ["assets/img/product/800_1034/Image-15-1.jpg"],
+    "category": ["shirt", "hot-collection"]
+  }
+]

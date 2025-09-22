@@ -1,0 +1,38 @@
+{
+  "note": {
+    "text": "Get your entire order with an extra <span>25%</span> OFF for this festival",
+    "showClose": true
+  },
+  "topLinks": [
+    { "text": "About Us", "url": "/about" },
+    { "text": "My Account", "url": "/account" }
+  ],
+  "signIn": {
+    "text": "Sign In",
+    "icon": "flaticon-avatar",
+    "url": "/login"
+  },
+  "logo": {
+    "default": "assets/img/logo/logo-bl-tr.png",
+    "mobile": "assets/img/logo/logo-bl-tr.png",
+    "url": "/"
+  },
+  "menu": [
+    { "text": "Home", "url": "/" },
+    { "text": "Shop", "url": "/shop" },
+    { "text": "About", "url": "/about" },
+    { "text": "Blog", "url": "/blog" },
+    { "text": "Contact", "url": "/contact" }
+  ],
+  "searchPlaceholder": "Search Products...",
+  "actions": {
+    "cart": { "count": 3, "icon": "fal fa-shopping-bag" },
+    "wishlist": { "count": 2, "icon": "fal fa-heart" }
+  },
+  "mobileMenu": [
+    { "text": "Home", "url": "/" },
+    { "text": "Shop", "url": "/shop" },
+    { "text": "About", "url": "/about" },
+    { "text": "Contact", "url": "/contact" }
+  ]
+}
