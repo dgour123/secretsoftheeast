@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import CartSideDrawer from "./Sidebar/CartSidedrawer";
+import CartSideDrawer from "./Sidebar/CartSideDrawer";
 import WishlistSideDrawer from "./Sidebar/WishlistSideDrawer";
 import { Link } from "react-router-dom";
 import { useSelector } from "react-redux";
