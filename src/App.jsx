@@ -36,7 +36,7 @@ const App = () => {
        {/* Your Routes / Components */}
       <ToastContainer
         position="top-right"   // top-right, top-left, bottom-right, bottom-left
-        autoClose={3000}       // 3 seconds
+        autoClose={1000}       // 3 seconds
         hideProgressBar={false}
         newestOnTop={false}
         closeOnClick

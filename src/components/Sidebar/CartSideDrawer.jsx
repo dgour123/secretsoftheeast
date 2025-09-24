@@ -43,17 +43,18 @@ const CartSideDrawer = ({ isCartOpen, toggleCart }) => {
                     </button>
                   </div>
                 </div>
-                <div className="product-price-total">
-                  <span>Subtotal :</span>
-                  <span className="subtotal-price">$ {totalPrice}</span>
-                </div>
-                <div className="sidebar-action-btn">
-                  <a href="cart.html" className="fill-btn">View cart</a>
-                  <a href="checkout.html" className="border-btn">Checkout</a>
-                </div>
+
               </div>
             ))
           )}
+        </div>
+        <div className="product-price-total">
+          <span>Subtotal :</span>
+          <span className="subtotal-price">$ {totalPrice}</span>
+        </div>
+        <div className="sidebar-action-btn">
+          <a href="cart.html" className="fill-btn">View cart</a>
+          <a href="checkout.html" className="border-btn">Checkout</a>
         </div>
 
 
