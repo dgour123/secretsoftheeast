@@ -4925,7 +4925,7 @@ p.checkout-coupon input[type=submit]:hover {
   border: medium none;
   color: #fff;
   display: inline-block;
-  float: left;
+  /* float: left; */
   font-size: 12px;
   font-weight: 700;
   height: 40px;
@@ -6420,4 +6420,7 @@ html .ui-button.ui-state-disabled:active {
   }
 }
 
-/*# sourceMappingURL=style.css.map */
+
+.tab-pane:target {
+  scroll-behavior: auto !important;
+}

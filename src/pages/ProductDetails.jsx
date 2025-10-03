@@ -1,23 +1,50 @@
-import { useParams } from "react-router-dom";
+import { useParams, useNavigate } from "react-router-dom";
 import { useEffect, useState } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import { addToCart } from "../components/cartSlice";
 import { toast } from "react-toastify";
 import PageTitle from "../components/PageTitle";
+import { addSlugsToProducts } from "../utils/slugify";
+import { slugify } from '../utils/slugify';
+
+
 
 const ProductDetails = () => {
-  const { id } = useParams(); // url se id milegi
+  // const { id } = useParams(); // url se id milegi
+  const { slug } = useParams();
+  const navigate = useNavigate();
   const [product, setProduct] = useState(null);
   const dispatch = useDispatch();
+
+  // useEffect(() => {
+  //   fetch("/products.json")
+  //     .then((res) => res.json())
+  //     .then((data) => {
+  //       const found = data.find((item) => item.id === parseInt(id));
+  //       setProduct(found);
+  //     });
+  // }, [id]);
 
   useEffect(() => {
     fetch("/products.json")
       .then((res) => res.json())
       .then((data) => {
-        const found = data.find((item) => item.id === parseInt(id));
-        setProduct(found);
+        const withSlugs = addSlugsToProducts(data);
+        const found = withSlugs.find((p) => p.slug === slug);
+        if (!found) {
+          // optional: show 404 or navigate to shop
+          navigate("/shop", { replace: true });
+        } else {
+          setProduct(found);
+        }
+      })
+      .catch((err) => {
+        console.error(err);
+        navigate("/shop", { replace: true });
       });
-  }, [id]);
+  }, [slug, navigate]);
+
+
 
   if (!product) return <p>Loading...</p>;
 
@@ -32,10 +59,10 @@ const ProductDetails = () => {
     );
     toast.success("Item added to cart!");
   };
-  
+
   return (
     <>
-       <PageTitle />  {/* No need to pass title/currentPage */}
+      <PageTitle />  {/* No need to pass title/currentPage */}
       {/* <!-- shop details area start  --> */}
       <section className="shop-details-area pt-120 pb-90">
         <div className="container container-small">
@@ -53,7 +80,7 @@ const ProductDetails = () => {
                         role="tabpanel"
                         aria-labelledby={`pro-${index + 1}-tab`}
                       >
-                        <img src={img} alt={product.name}  />
+                        <img src={img} alt={product.name} />
                       </div>
                     ))}
 
@@ -78,18 +105,14 @@ const ProductDetails = () => {
                       </li>
                     ))}
                   </ul>
-
                 </div>
-                
               </div>
-
             </div>
             <div className="col-lg-6">
               <div className="product-side-info mb-30">
                 <h4 className="product-name mb-10">{product.name}</h4>
                 <span className="product-price">${product.price}</span>
                 <p>{product.description}</p>
-                
                 {/* <div className="available-sizes">
                   <span>Available Sizes : </span>
                   <div className="product-available-sizes">
@@ -125,14 +148,14 @@ const ProductDetails = () => {
             <div className="">
               <nav className="product-details-nav">
                 <div className="nav nav-tabs" id="nav-tab" role="tablist">
-                  <a className="nav-item nav-link show" id="nav-general-tab" data-bs-toggle="tab" href="#nav-general"
+                  <a className="nav-item nav-link  show active" id="nav-general-tab" data-bs-toggle="tab" href="#nav-general"
                     role="tab" aria-selected="false">Description</a>
-                  <a className="nav-item nav-link active" id="nav-seller-tab" data-bs-toggle="tab" href="#nav-seller"
+                  <a className="nav-item nav-link " id="nav-seller-tab" data-bs-toggle="tab" href="#nav-seller"
                     role="tab" aria-selected="true">Reviews</a>
                 </div>
               </nav>
               <div className="tab-content product-details-content" id="nav-tabContent">
-                <div className="tab-pane fade" id="nav-general" role="tabpanel">
+                <div className="tab-pane fade  active show" id="nav-general" role="tabpanel">
                   <div className="tabs-wrapper mt-35">
                     <div className="product__details-des">
                       <p>Very clean and organized with easy to follow tutorials, Exercises, and solutions. This
@@ -149,7 +172,7 @@ const ProductDetails = () => {
                     </div>
                   </div>
                 </div>
-                <div className="tab-pane fade active show" id="nav-seller" role="tabpanel">
+                <div className="tab-pane fade" id="nav-seller" role="tabpanel">
                   <div className="tabs-wrapper mt-35">
                     <div className="course-review-item mb-30">
                       <div className="course-reviews-img">

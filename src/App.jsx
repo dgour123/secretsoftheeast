@@ -14,6 +14,7 @@ import ProductDetails from './pages/ProductDetails';
 import Cart from './pages/Cart';
 import Counter from './components/Counter'
 import { ToastContainer } from 'react-toastify';
+import ScrollToTop from "./components/ScrollToTop";
 
 const App = () => {
 
@@ -25,7 +26,8 @@ const App = () => {
         <Route path='/' element={<Home />}></Route>
         <Route path="/shop" element={<Shop />} />
         <Route path="/cart" element={<Cart />} />
-        <Route path="/product/:id" element={<ProductDetails />} />
+        {/* <Route path="/product/:id" element={<ProductDetails />} /> */}
+        <Route path="/product/:slug" element={<ProductDetails />} />
         <Route path="/product/category/:cat" element={<ProductByCategory />} />
         <Route path="/product/search/:term" element={<SearchProduct />} />
         <Route path="/about" element={<About />} />
