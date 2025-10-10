@@ -12,7 +12,7 @@ const About = () => {
          {/* <!-- about-area end  --> */}
 
          {/* <!-- features area start  --> */}
-         <div className="features-area features-area4">
+         <div className="features-area  features-area4">
             <div className="container container-small">
                <div className="row">
                   <div className="col-lg-3 col-md-6 col-sm-6">
