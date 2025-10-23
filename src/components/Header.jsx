@@ -59,8 +59,7 @@ const Header = () => {
                   <Link to={header.signIn.url} className="text-btn">
                     <i className={header.signIn.icon}></i>
                     {header.signIn.text}
-                        <span className="subtotal-price"><span>{totalPrice}</span></span>
-                  </Link>
+                   </Link>
                 </div>
               </div>
             </div>

@@ -9,12 +9,12 @@
     "name": "John William",
     "role": "CEO, WebX",
     "text": "This platform has truly transformed our workflow. The speed and efficiency are unmatched, highly recommended for businesses.",
-    "image": "assets/img/testimonial/author-2.jpg"
+    "image": "assets/img/testimonial/author-1.jpg"
   },
   {
     "name": "Emma Johnson",
     "role": "Marketing Manager, Brandify",
     "text": "Superb customer service and excellent quality. Their team helped us scale quickly and effectively.",
-    "image": "assets/img/testimonial/author-3.jpg"
+    "image": "assets/img/testimonial/author-1.jpg"
   }
 ]

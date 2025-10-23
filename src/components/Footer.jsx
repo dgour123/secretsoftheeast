@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from "react";
+import { Link } from "react-router-dom";
 
 const Footer = () => {
   const [footer, setFooter] = useState(null);
@@ -27,7 +28,7 @@ const Footer = () => {
                     <ul>
                       {widget.links.map((link, j) => (
                         <li key={j}>
-                          <a href={link.url}>{link.text}</a>
+                          <Link to={link.url}>{link.text}</Link>
                         </li>
                       ))}
                     </ul>
@@ -64,9 +65,9 @@ const Footer = () => {
               <div className="irc-item-content">
                 <p>{footer.support.time}</p>
                 <div className="support-number">
-                  <a href={`tel:${footer.support.phone}`}>
+                  <Link to={`tel:${footer.support.phone}`}>
                     {footer.support.phone}
-                  </a>
+                  </Link>
                 </div>
               </div>
             </div>
@@ -112,9 +113,9 @@ const Footer = () => {
             </div>
             <div className="copyright-link">
               {footer.copyright.links.map((link, i) => (
-                <a key={i} href={link.url} className="text-btn">
+                <Link key={i} href={link.url} className="text-btn">
                   {link.text}
-                </a>
+                </Link>
               ))}
             </div>
             <div className="social-wrapper">
@@ -123,9 +124,9 @@ const Footer = () => {
               <ul>
                 {footer.socials.map((social, i) => (
                   <li key={i}>
-                    <a href={social.url}>
+                    <Link href={social.url}>
                       <i className={social.icon}></i>
-                    </a>
+                    </Link>
                   </li>
                 ))}
               </ul>
