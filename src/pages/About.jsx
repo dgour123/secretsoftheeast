@@ -1,4 +1,4 @@
-import AboutSection from "../components/About/aboutSection";
+import AboutSection from "../components/About/AboutSection";
 import FeatureSection from "../components/About/FeatureSection";
 import SpecialitySection from "../components/About/SpecialitySection";
 import TestimonialSlider from "../components/About/TestimonialSlider";
